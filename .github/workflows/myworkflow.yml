@@ -1,0 +1,13 @@
+name: myworkflow
+
+on: 
+  push:
+
+jobs:
+  test:
+     runs-on: ubuntu-latest
+
+     steps: 
+       - name: print hello
+         run: echo "hello git hub actions"
+     
