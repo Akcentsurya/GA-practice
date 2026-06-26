@@ -10,9 +10,11 @@ jobs:
      steps: 
        - name: System Info
          run: |
-          cat /etc/os-release
+         
+          pwd
+          touch app.txt
           ls
-          ls -R
-          ls -lrt
-          ls -la
+          echo "this is brahma">app.txt
+          cat app.txt
+          
      
