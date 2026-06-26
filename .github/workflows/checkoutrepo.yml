@@ -13,5 +13,5 @@ jobs:
        - name: show repo files
          run: ls -la
        - name: display message file
-         run: cat hello.yml
+         run: cat message.txt
          
