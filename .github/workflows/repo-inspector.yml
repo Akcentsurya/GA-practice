@@ -28,3 +28,5 @@ jobs:
          run: echo "this is new file addded to repo" >surya.txt
        - name: keep surya file into the logs foldre
          run: mv surya.txt logs/
+       - name: to see data of folder logs
+         run: ls -la logs
