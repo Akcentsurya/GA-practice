@@ -10,11 +10,11 @@ jobs:
      steps: 
        - name: System Info
          run: |
-         
-          pwd
-          touch app.txt
-          ls
-          echo "this is brahma">app.txt
-          cat app.txt
+           mkdir demo
+           ls
+           echo "starting "
+           sleep 10 
+           echo "finished"
+  
           
      
