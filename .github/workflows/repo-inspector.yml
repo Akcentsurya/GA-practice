@@ -16,3 +16,7 @@ jobs:
          run: ls -la
        - name: display the hello file
          run: cat hello.yml
+       - name: print today date
+         run: date
+       - name: disply kernal version
+         run: uname -a
