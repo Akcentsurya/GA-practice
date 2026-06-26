@@ -1,0 +1,9 @@
+name: this is second 
+on: 
+  push:
+jobs: 
+  name: 
+  runs-on: ubuntu-latest
+  steps: 
+  - name: git commands
+    run: apt install git -y
