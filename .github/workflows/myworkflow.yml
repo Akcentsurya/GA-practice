@@ -10,7 +10,10 @@ jobs:
      steps: 
        - name: Welcome
          run: |
-           echo "Hello"
-           echo " welcome"
-           echo " Github actions"
+           hostname
+           pwd
+           whoami
+           date
+           who
+           time
      
