@@ -1,4 +1,4 @@
-name: multiplesteps-workflow
+name: multiple steps-workflow
 
 on: 
   push:
@@ -8,16 +8,16 @@ jobs:
      runs-on: ubuntu-latest
 
      steps:
-       - name: step1
+       - name: step 1
          run: echo"multiple steps"
 
-       - name: step2
+       - name: step 2
          run: pwd
 
-       - name: step3
+       - name: step 3
          run: touch app.txt
 
-       - name: step4
+       - name: step 4
          run: echo" this is multiple steps practice"
           
         
