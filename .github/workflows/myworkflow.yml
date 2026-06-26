@@ -8,6 +8,9 @@ jobs:
      runs-on: ubuntu-latest
 
      steps: 
-       - name: print hello
-         run: echo "hello brahma naidu chappidi"
+       - name: Welcome
+         run: |
+           echo "Hello"
+           echo " welcome"
+           echo " Github actions"
      
