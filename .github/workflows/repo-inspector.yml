@@ -1,4 +1,4 @@
-name: Repository Inspector
+name: GITHUB ACTIONS BASICS
 
 on: 
   push:
