@@ -1,0 +1,12 @@
+name: git 
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: git version
+        run: git --version
