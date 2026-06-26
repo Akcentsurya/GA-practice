@@ -1,4 +1,4 @@
-name: multiple steps-workflow
+name: multiplesteps-workflow
 
 on: 
   push:
