@@ -20,3 +20,11 @@ jobs:
          run: date
        - name: disply kernal version
          run: uname -a
+       - name: create a directory 
+         run: mkdir logs
+       - name: create a file name surya
+         run: touch surya.txt
+       - name: keep data in file surya
+         run: echo "this is new file addded to repo" >surya.txt
+       - name: keep surya file into the logs foldre
+         run: mv surya.txt logs/
