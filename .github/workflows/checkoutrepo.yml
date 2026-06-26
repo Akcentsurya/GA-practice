@@ -1,0 +1,17 @@
+name: checkout repository
+
+on: 
+  push:
+
+jobs:
+  checkout-demo:
+     runs-on: ubuntu-22.04
+     steps:
+       - name: checkout repo
+         uses: actions/checkout@v4
+
+       - name: show repo files
+         run: ls -la
+       - name: display message file
+         run: cat message.txt
+         
