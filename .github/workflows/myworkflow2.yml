@@ -9,7 +9,7 @@ jobs:
 
      steps:
        - name: step 1
-         run: echo"multiple steps"
+         run: echo "multiple steps"
 
        - name: step 2
          run: pwd
@@ -18,6 +18,6 @@ jobs:
          run: touch app.txt
 
        - name: step 4
-         run: echo" this is multiple steps practice"
+         run: echo " this is multiple steps practice"
           
         
