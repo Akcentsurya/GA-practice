@@ -8,12 +8,11 @@ jobs:
      runs-on: ubuntu-latest
 
      steps: 
-       - name: Welcome
+       - name: System Info
          run: |
-           hostname
-           pwd
-           whoami
-           date
-           who
-           time
+          cat /etc/os-release
+          ls
+          ls -R
+          ls -lrt
+          ls -la
      
